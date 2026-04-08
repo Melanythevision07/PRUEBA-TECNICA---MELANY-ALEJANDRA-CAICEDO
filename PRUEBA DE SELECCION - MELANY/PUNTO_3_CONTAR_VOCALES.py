@@ -3,7 +3,7 @@
 def contar_vocales(vocal):
     contador = 0         
     for letra in vocal:
-        if letra in 'aeiou':
+        if letra in 'AaEeiIoUu':
             contador += 1  
     return contador
 
