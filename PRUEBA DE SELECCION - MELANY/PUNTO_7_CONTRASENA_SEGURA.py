@@ -8,9 +8,9 @@
 
 def es_contraseña_segura(contraseña):
     if len(contraseña) >= 8 and  any(c.isupper() for c in contraseña) and any(c.islower() for c in contraseña) and any(c.isdigit() for c in contraseña) and any(c in '!@#$%^.&*' for c in contraseña):
-        return('True')
+        return(True)
     else:
-        return('False')
+        return(False)
     
 contraseña = input('Ingrese una contraseña segura. ')
 print(es_contraseña_segura(contraseña)) 
