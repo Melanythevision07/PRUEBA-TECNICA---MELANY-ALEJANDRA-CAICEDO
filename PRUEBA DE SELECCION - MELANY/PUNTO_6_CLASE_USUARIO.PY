@@ -3,7 +3,7 @@
 # Un método saludar() que devuelva: "Hola, me llamo [usuario]"
 # Crea una instancia de la clase y llama al método saludar() .###
 
-class usuario:
+class Usuario:
     def __init__(self, name, email):
         self.name = name
         self.email = email
